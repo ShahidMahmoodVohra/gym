@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GYM Web Site</title>
+    <link rel="stylesheet" href="'https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;1,300;1,400&display=swap';
+    ">
+    <style>
+        /* 1-images from free stock image: 
+        2- best & Fastest way to design best  websites see video of harry & search website templates
+        */
+        /* css reset */
+        
+        
+        body {
+            font-family: 'Ubuntu', sans-serif;
+            color: white;
+            margin: 0px;
+            padding: 0px;
+            background: url("./images/jim.jpg");
+
+
+        }
+
+        .left {
+          
+            position: absolute;
+            left: 60px;
+            top: 20px;
+            display: inline-block;
+            /* border: 2px solid red; */
+          
+
+
+        }
+        .left img{
+            width: 91px;
+            filter: invert(100%);
+          
+        }
+        .left img center{  
+            margin: auto 15px;
+            display: block;
+            width: 50%px;
+
+        }
+        .left div{
+            text-align: center;
+        }
+
+        .mid {
+            
+            display: block;
+            width: 38%;
+            margin: 20px auto;
+            /* border: 2px solid green; */
+            
+        }
+
+        .right {
+            position: absolute;
+            right: 34px;
+            top: 20px;
+            display: inline-block;
+            /* border: 2px solid yellow; */
+
+
+        }
+        .navbar{
+            display: inline-block;
+           
+        }
+        .navbar li{
+            display: inline-block;
+     font-size: 15px;
+          
+        
+        }
+        .navbar li a{
+            color: white;
+            text-decoration: none;
+            padding: 15px 8px;
+        }
+
+        .navbar li a:hover , navbar li a:active{
+            color: grey;
+            text-decoration: underline;
+        }
+        .btn{
+            margin: 1px 1px;
+            background-color: black;
+            color: white;
+           padding: 4px 4px;
+           border: 2px solid grey;
+           border-radius: 10px;
+          font-size: 12px;
+          cursor: pointer;
+          font-family: 'Ubuntu', sans-serif;
+        }
+        .btn:hover{
+            color: darkgray;
+        }
+        .container{
+            border: 2px solid green;
+            margin: 170px 17px;
+            padding: 18px 40px;
+            width: 23%;
+            border-radius: 5px;
+
+        }
+
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <!-- left box forlogo -->
+        <div class="left">
+    <img src="./images/logo.png" alt="logo" class="center">
+    <div>Harry Fitness</div>
+        </div>
+        <!-- mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li> <a href="#" class="active">Home</a> </li>
+                <li> <a href="#">About</a> </li>
+                <li> <a href="#">Fitness Calculator</a>  </li>
+                <li> <a href="#">Contact Us</a> </li>
+            </ul>
+        </div>
+        <!-- right box for buttons -->
+        <div class="right">
+        <button class="btn">Call Us Now</button>
+        <button class="btn">Email address</button>
+        </div>
+
+    </header>
+    <div class="container">
+        i am a Container
+    </div>
+</body>
+
+</html>
