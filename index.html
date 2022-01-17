@@ -20,7 +20,7 @@
             color: white;
             margin: 0px;
             padding: 0px;
-            background: url("./images/jim.jpg");
+            background: url("./images/jim1.jpg");
 
 
         }
@@ -29,7 +29,7 @@
           
             position: absolute;
             left: 60px;
-            top: 20px;
+            top: 32px;
             display: inline-block;
             /* border: 2px solid red; */
           
@@ -55,7 +55,7 @@
             
             display: block;
             width: 38%;
-            margin: 20px auto;
+            margin: 28px 215px;
             /* border: 2px solid green; */
             
         }
@@ -63,7 +63,7 @@
         .right {
             position: absolute;
             right: 34px;
-            top: 20px;
+            top: 28px;
             display: inline-block;
             /* border: 2px solid yellow; */
 
@@ -75,14 +75,14 @@
         }
         .navbar li{
             display: inline-block;
-     font-size: 15px;
+     font-size: 14px;
           
         
         }
         .navbar li a{
             color: white;
             text-decoration: none;
-            padding: 15px 8px;
+            padding: 15px 14px;
         }
 
         .navbar li a:hover , navbar li a:active{
@@ -104,12 +104,33 @@
             color: darkgray;
         }
         .container{
-            border: 2px solid green;
-            margin: 170px 17px;
-            padding: 18px 40px;
-            width: 23%;
-            border-radius: 5px;
+             border: 2px solid white; 
+            margin: 87px 3px;
+            padding: 9px 23px;
+            width: 30%;
+            border-radius: 9px;
+            cursor: pointer;
+            font-size: 10px;
 
+        }
+        .form-group input{
+             text-align: center;
+             display: block;
+             width: 283px;
+             padding: 4px;
+             border: 2px solid black;
+             margin: 8px auto;
+             border-radius: 10px;
+             font-family: 'Ubuntu', sans-serif;
+        }
+        .container h1{
+            text-align: center;
+        }
+        .container button{
+            display: block;
+            width: 283px;
+            margin: 10px auto;
+            
         }
 
     </style>
@@ -120,7 +141,7 @@
         <!-- left box forlogo -->
         <div class="left">
     <img src="./images/logo.png" alt="logo" class="center">
-    <div>Harry Fitness</div>
+    <div>Happy Fitness</div>
         </div>
         <!-- mid box for navbar -->
         <div class="mid">
@@ -139,7 +160,25 @@
 
     </header>
     <div class="container">
-        i am a Container
+    <h1>Join the best jim of Karachi now</h1>
+    <form action="noaction.php">
+<div class="form-group">
+    <input type="text" name="" placeholder="Enter your Name">
+</div>
+<div class="form-group">
+    <input type="text" name="" placeholder="Enter your Age">
+</div>
+<div class="form-group">
+    <input type="text" name="" placeholder="Enter your Gender">
+</div>
+<div class="form-group">
+    <input type="text" name="" placeholder="Enter your Locality">
+</div>
+<button class="btn">Submit</button>
+
+
+
+    </form>
     </div>
 </body>
 
